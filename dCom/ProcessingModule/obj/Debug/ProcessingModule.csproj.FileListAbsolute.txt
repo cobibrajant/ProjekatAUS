@@ -15,3 +15,12 @@ E:\repos\AUS\dCom\ProcessingModule\obj\Debug\ProcessingModule.csproj.CoreCompile
 E:\repos\AUS\dCom\ProcessingModule\obj\Debug\Processi.B4D6C848.Up2Date
 E:\repos\AUS\dCom\ProcessingModule\obj\Debug\ProcessingModule.dll
 E:\repos\AUS\dCom\ProcessingModule\obj\Debug\ProcessingModule.pdb
+E:\repos\AUS\ProjekatAUS\dCom\ProcessingModule\bin\Debug\ProcessingModule.dll
+E:\repos\AUS\ProjekatAUS\dCom\ProcessingModule\bin\Debug\ProcessingModule.pdb
+E:\repos\AUS\ProjekatAUS\dCom\ProcessingModule\bin\Debug\Common.dll
+E:\repos\AUS\ProjekatAUS\dCom\ProcessingModule\bin\Debug\Common.pdb
+E:\repos\AUS\ProjekatAUS\dCom\ProcessingModule\obj\Debug\ProcessingModule.csproj.AssemblyReference.cache
+E:\repos\AUS\ProjekatAUS\dCom\ProcessingModule\obj\Debug\ProcessingModule.csproj.CoreCompileInputs.cache
+E:\repos\AUS\ProjekatAUS\dCom\ProcessingModule\obj\Debug\Processi.B4D6C848.Up2Date
+E:\repos\AUS\ProjekatAUS\dCom\ProcessingModule\obj\Debug\ProcessingModule.dll
+E:\repos\AUS\ProjekatAUS\dCom\ProcessingModule\obj\Debug\ProcessingModule.pdb

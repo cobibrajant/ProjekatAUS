@@ -7,3 +7,12 @@ E:\repos\AUS\dCom\Modbus\obj\Debug\Modbus.csproj.CoreCompileInputs.cache
 E:\repos\AUS\dCom\Modbus\obj\Debug\Modbus.csproj.Up2Date
 E:\repos\AUS\dCom\Modbus\obj\Debug\Modbus.dll
 E:\repos\AUS\dCom\Modbus\obj\Debug\Modbus.pdb
+E:\repos\AUS\ProjekatAUS\dCom\Modbus\bin\Debug\Modbus.dll
+E:\repos\AUS\ProjekatAUS\dCom\Modbus\bin\Debug\Modbus.pdb
+E:\repos\AUS\ProjekatAUS\dCom\Modbus\bin\Debug\Common.dll
+E:\repos\AUS\ProjekatAUS\dCom\Modbus\bin\Debug\Common.pdb
+E:\repos\AUS\ProjekatAUS\dCom\Modbus\obj\Debug\Modbus.csproj.AssemblyReference.cache
+E:\repos\AUS\ProjekatAUS\dCom\Modbus\obj\Debug\Modbus.csproj.CoreCompileInputs.cache
+E:\repos\AUS\ProjekatAUS\dCom\Modbus\obj\Debug\Modbus.csproj.Up2Date
+E:\repos\AUS\ProjekatAUS\dCom\Modbus\obj\Debug\Modbus.dll
+E:\repos\AUS\ProjekatAUS\dCom\Modbus\obj\Debug\Modbus.pdb

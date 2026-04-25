@@ -57,6 +57,45 @@ namespace ProcessingModule
 		private void Acquisition_DoWork()
 		{
             //TO DO: IMPLEMENT
+            while (true)
+            {
+                try
+                {
+                    acquisitionTrigger.WaitOne();
+
+                    foreach (IConfigItem configItem in configuration.GetConfigurationItems())
+                    {
+                        if (configItem.RegistryType != PointType.DIGITAL_OUTPUT &&
+                            configItem.RegistryType != PointType.ANALOG_OUTPUT)
+                        {
+                            continue;
+                        }
+
+                        configItem.SecondsPassedSinceLastPoll++;
+
+                        if (configItem.SecondsPassedSinceLastPoll >= configItem.AcquisitionInterval)
+                        {
+                            processingManager.ExecuteReadCommand(
+                                configItem,
+                                configuration.GetTransactionId(),
+                                configuration.UnitAddress,
+                                configItem.StartAddress,
+                                configItem.NumberOfRegisters);
+
+                            configItem.SecondsPassedSinceLastPoll = 0;
+                        }
+                    }
+                }
+                catch (ThreadAbortException)
+                {
+                    return;
+                }
+                catch (Exception ex)
+                {
+                    string message = $"{ex.TargetSite?.ReflectedType?.Name}.{ex.TargetSite?.Name}: {ex.Message}";
+                    stateUpdater.LogMessage(message);
+                }
+            }
         }
 
         #endregion Private Methods
