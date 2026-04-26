@@ -66,7 +66,8 @@ namespace ProcessingModule
                     foreach (IConfigItem configItem in configuration.GetConfigurationItems())
                     {
                         if (configItem.RegistryType != PointType.DIGITAL_OUTPUT &&
-                            configItem.RegistryType != PointType.ANALOG_OUTPUT)
+                            configItem.RegistryType != PointType.ANALOG_OUTPUT &&
+                            configItem.RegistryType != PointType.ANALOG_INPUT)
                         {
                             continue;
                         }
